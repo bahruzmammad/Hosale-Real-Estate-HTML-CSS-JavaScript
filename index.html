@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Hosale | Real Estate</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-header">
+        <div class="logo"><a href="#home">Hosale.</a></div>
+        <button class="menu-button" id="menu-button">
+          <i class="ri-menu-3-line"></i>
+        </button>
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#properties">Properties</a></li>
+        <li><a href="#experience">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <header class="hero" id="home">
+      <div class="hero-image"></div>
+      <div class="hero-content">
+        <h1>Find The Right Property For You</h1>
+      </div>
+      <form class="search-form" action="/">
+        <div class="input-group">
+          <label for="location">Location</label>
+          <input id="location" type="text" placeholder="Enter location" />
+        </div>
+        <div class="input-group">
+          <label for="property-type">Property Type</label>
+          <input
+            id="property-type"
+            type="text"
+            placeholder="House, apartment..."
+          />
+        </div>
+        <div class="input-group">
+          <label for="price">Max Price</label>
+          <input id="price" type="text" placeholder="Enter max price" />
+        </div>
+        <button class="btn" type="submit">
+          <i class="ri-search-line"></i>
+        </button>
+      </form>
+    </header>
+    <section class="services" id="services">
+      <div class="container">
+        <h2 class="section-title">How It Works</h2>
+        <div class="service-list">
+          <div class="service-card">
+            <img src="assets/images/service-1.png" alt="Property evaluation" />
+            <h4>Evaluate Property</h4>
+            <p>
+              Check the property details and value before making your decision.
+            </p>
+          </div>
+          <div class="service-card">
+            <img src="assets/images/service-2.png" alt="Real estate agent" />
+            <h4>Meet Your Agent</h4>
+            <p>
+              Get help from a real estate agent during the buying or selling
+              process.
+            </p>
+          </div>
+          <div class="service-card">
+            <img src="assets/images/service-3.png" alt="Property deal" />
+            <h4>Close The Deal</h4>
+            <p>
+              Complete the final steps and make your property transaction
+              simple.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="experience" id="experience">
+      <div class="experience-image"></div>
+      <div class="experience-content">
+        <h2 class="section-title">A Better Real Estate Experience</h2>
+        <p>
+          Hosale makes it easier to search for properties, compare options, and
+          choose a home that fits your needs. We provide simple tools and useful
+          information to make the process easier.
+        </p>
+        <div class="experience-button">
+          <button class="btn">View Properties</button>
+        </div>
+      </div>
+      <div class="experience-stats">
+        <div>
+          <h4>550+</h4>
+          <p>Properties</p>
+        </div>
+        <div>
+          <h4>30+</h4>
+          <p>Awards</p>
+        </div>
+        <div>
+          <h4>20+</h4>
+          <p>Years Experience</p>
+        </div>
+      </div>
+    </section>
+    <section class="properties" id="properties">
+      <div class="container">
+        <h2 class="section-title">Latest Properties</h2>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="property-card">
+                <img
+                  src="assets/images/property-1.jpg"
+                  alt="Oceanview Villas"
+                />
+                <div class="property-details">
+                  <div class="property-header">
+                    <h4>Oceanview Villas</h4>
+                    <h5>$1,250,000</h5>
+                  </div>
+                  <div class="property-info">
+                    <span><i class="ri-hotel-bed-line"></i> 5</span>
+                    <span><i class="ri-showers-line"></i> 6</span>
+                    <span><i class="ri-dashboard-fill"></i> 4000ft²</span>
+                  </div>
+                  <p class="property-location">
+                    <i class="ri-map-pin-5-line"></i>
+                    Coastal Drive, California
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="property-card">
+                <img
+                  src="assets/images/property-2.jpg"
+                  alt="Greenwood Estate"
+                />
+                <div class="property-details">
+                  <div class="property-header">
+                    <h4>Greenwood Estate</h4>
+                    <h5>$850,000</h5>
+                  </div>
+                  <div class="property-info">
+                    <span><i class="ri-hotel-bed-line"></i> 4</span>
+                    <span><i class="ri-showers-line"></i> 5</span>
+                    <span><i class="ri-dashboard-fill"></i> 5500ft²</span>
+                  </div>
+                  <p class="property-location">
+                    <i class="ri-map-pin-5-line"></i>
+                    Oakwood Lane, Austin
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="property-card">
+                <img src="assets/images/property-3.jpg" alt="Skyline Tower" />
+                <div class="property-details">
+                  <div class="property-header">
+                    <h4>Skyline Tower</h4>
+                    <h5>$2,500,000</h5>
+                  </div>
+                  <div class="property-info">
+                    <span><i class="ri-hotel-bed-line"></i> 6</span>
+                    <span><i class="ri-showers-line"></i> 7</span>
+                    <span><i class="ri-dashboard-fill"></i> 4500ft²</span>
+                  </div>
+                  <p class="property-location">
+                    <i class="ri-map-pin-5-line"></i> West 5th Street, New York
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="property-card">
+                <img
+                  src="assets/images/property-4.jpg"
+                  alt="Maplewood Cottage"
+                />
+                <div class="property-details">
+                  <div class="property-header">
+                    <h4>Maplewood Cottage</h4>
+                    <h5>$540,000</h5>
+                  </div>
+                  <div class="property-info">
+                    <span><i class="ri-hotel-bed-line"></i> 4</span>
+                    <span><i class="ri-showers-line"></i> 5</span>
+                    <span><i class="ri-dashboard-fill"></i> 3500ft²</span>
+                  </div>
+                  <p class="property-location">
+                    <i class="ri-map-pin-5-line"></i> Maple Street, Denver
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="property-card">
+                <img
+                  src="assets/images/property-5.jpg"
+                  alt="Royal Crest Mansion"
+                />
+                <div class="property-details">
+                  <div class="property-header">
+                    <h4>Royal Crest Mansion</h4>
+                    <h5>$4,800,000</h5>
+                  </div>
+                  <div class="property-info">
+                    <span><i class="ri-hotel-bed-line"></i> 5</span>
+                    <span><i class="ri-showers-line"></i> 6</span>
+                    <span><i class="ri-dashboard-fill"></i> 5000ft²</span>
+                  </div>
+                  <p class="property-location">
+                    <i class="ri-map-pin-5-line"></i>
+                    Kingsway, Beverly Hills
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="subscribe" id="contact">
+      <h2 class="section-title">Stay Updated With Hosale</h2>
+      <p>Get new property updates and real estate news in your inbox.</p>
+      <form action="/">
+        <input type="email" placeholder="Enter your email" />
+        <button class="btn" type="submit">Subscribe</button>
+      </form>
+    </section>
+    <footer class="footer">
+      <div class="container footer-content">
+        <div class="footer-column">
+          <div class="footer-logo"><a href="#home">Hosale.</a></div>
+          <p>
+            Hosale helps you find and explore properties in a simple and
+            comfortable way.
+          </p>
+          <ul class="social-links">
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Company</h4>
+          <ul class="footer-links">
+            <li><a href="#experience">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#properties">Properties</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Support</h4>
+          <ul class="footer-links">
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#properties">Property Listings</a></li>
+            <li><a href="#">Buying Guide</a></li>
+            <li><a href="#">Selling Guide</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Featured Property</h4>
+          <div class="featured-property">
+            <img src="assets/images/footer.jpg" alt="Sunset Heights" />
+            <div>
+              <h5>Sunset Heights</h5>
+              <p>Maple Avenue, Los Angeles</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        Copyright © 2025 Hosale. All rights reserved.
+      </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
